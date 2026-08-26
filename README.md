@@ -8,17 +8,10 @@ Source stays private in joya-energy/joya-consumption-edge.
 
 See latest.json on main (polled by agents with auto_ota enabled).
 
-- version: 0.4.3
-- url: https://github.com/joya-energy/joya-edge-releases/releases/download/v0.4.3/joya-edge-0.4.3.tar.gz
-- sha256: e850cb27f659441200e7deab5fed7c5f59fe6bff95fb272f722b9be1c57b95d5
+- version: 0.4.4
+- url: https://github.com/joya-energy/joya-edge-releases/releases/download/v0.4.4/joya-edge-0.4.4.tar.gz
+- sha256: e88df5f182823f9bac0febe37a50ab697316007976755952bbba32925b75449d
 
 ## Download
 
-https://github.com/joya-energy/joya-edge-releases/releases/download/v0.4.3/joya-edge-0.4.3.tar.gz
-
-## New Pi bootstrap
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/joya-energy/joya-edge-releases/main/bootstrap-prod.sh | bash
-```
-
+https://github.com/joya-energy/joya-edge-releases/releases/download/v0.4.4/joya-edge-0.4.4.tar.gz
