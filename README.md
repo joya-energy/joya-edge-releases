@@ -1,17 +1,35 @@
-﻿# JOYA edge releases (OTA)
+﻿# JOYA edge releases
 
-Public binary packages for the JOYA consumption edge agent.
+Public **update packages** for JOYA consumption edge Pis.
 
-Source stays private in joya-energy/joya-consumption-edge.
+This git repo is **not** the source tree. On `main` you only find:
 
-## Latest
+- `latest.json` — version / URL / SHA for auto-OTA
+- `bootstrap-prod.sh` — first-time Pi install
+- `README.md`
 
-See latest.json on main (polled by agents with auto_ota enabled).
+## Release assets (Downloads)
 
-- version: 0.4.4
-- url: https://github.com/joya-energy/joya-edge-releases/releases/download/v0.4.4/joya-edge-0.4.4.tar.gz
-- sha256: e88df5f182823f9bac0febe37a50ab697316007976755952bbba32925b75449d
+Each GitHub Release tag (`vX.Y.Z`) attaches a single runtime package:
 
-## Download
+- `joya-edge-X.Y.Z.tar.gz` — install/OTA payload only: `agent/` + `deploy/` + config example
+- `joya-edge-X.Y.Z.tar.gz.sha256`
+- `latest.json`
 
-https://github.com/joya-energy/joya-edge-releases/releases/download/v0.4.4/joya-edge-0.4.4.tar.gz
+No docs, no packaging scripts, no private SSH keys.
+
+Full source stays private: `joya-energy/joya-consumption-edge`.
+
+## Ship a new update
+
+From the private edge repo:
+
+```powershell
+powershell -File scripts\ship.ps1
+```
+
+## New Pi
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/joya-energy/joya-edge-releases/main/bootstrap-prod.sh | bash
+```
