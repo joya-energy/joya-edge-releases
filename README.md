@@ -15,3 +15,10 @@ See latest.json on main (polled by agents with auto_ota enabled).
 ## Download
 
 https://github.com/joya-energy/joya-edge-releases/releases/download/v0.4.3/joya-edge-0.4.3.tar.gz
+
+## New Pi bootstrap
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/joya-energy/joya-edge-releases/main/bootstrap-prod.sh | bash
+```
+
