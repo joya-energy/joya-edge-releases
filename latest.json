@@ -1,1 +1,7 @@
-﻿{"version":null,"url":null,"sha256":null,"published_at":null,"note":"bootstrap"}
+{
+    "version":  "0.4.3",
+    "url":  "https://github.com/joya-energy/joya-edge-releases/releases/download/v0.4.3/joya-edge-0.4.3.tar.gz",
+    "sha256":  "e850cb27f659441200e7deab5fed7c5f59fe6bff95fb272f722b9be1c57b95d5",
+    "published_at":  "2026-08-26T10:32:10Z",
+    "releases_repo":  "joya-energy/joya-edge-releases"
+}
