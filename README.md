@@ -8,10 +8,10 @@ Source stays private in joya-energy/joya-consumption-edge.
 
 See latest.json on main (polled by agents with auto_ota enabled).
 
-- version: 0.4.6
-- url: https://github.com/joya-energy/joya-edge-releases/releases/download/v0.4.6/joya-edge-0.4.6.tar.gz
-- sha256: 6c421f664717b2105ee9bcdb45990354cfd80ac666b5216372a06fdb6ddce9c0
+- version: 0.4.7
+- url: https://github.com/joya-energy/joya-edge-releases/releases/download/v0.4.7/joya-edge-0.4.7.tar.gz
+- sha256: d774f13361450dbc61693f4ae8a67a3ca64245c5874f099aed35e5f92e0173b3
 
 ## Download
 
-https://github.com/joya-energy/joya-edge-releases/releases/download/v0.4.6/joya-edge-0.4.6.tar.gz
+https://github.com/joya-energy/joya-edge-releases/releases/download/v0.4.7/joya-edge-0.4.7.tar.gz

@@ -1,7 +1,7 @@
 {
-    "version":  "0.4.6",
-    "url":  "https://github.com/joya-energy/joya-edge-releases/releases/download/v0.4.6/joya-edge-0.4.6.tar.gz",
-    "sha256":  "6c421f664717b2105ee9bcdb45990354cfd80ac666b5216372a06fdb6ddce9c0",
-    "published_at":  "2026-08-31T10:10:50Z",
+    "version":  "0.4.7",
+    "url":  "https://github.com/joya-energy/joya-edge-releases/releases/download/v0.4.7/joya-edge-0.4.7.tar.gz",
+    "sha256":  "d774f13361450dbc61693f4ae8a67a3ca64245c5874f099aed35e5f92e0173b3",
+    "published_at":  "2026-09-01T11:58:41Z",
     "releases_repo":  "joya-energy/joya-edge-releases"
 }
